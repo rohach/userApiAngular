@@ -1,0 +1,21 @@
+.user {
+  height: 50px;
+  width: 50px;
+}
+.user > img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.nav_link {
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 250ms ease;
+  border-bottom: 2px solid transparent;
+}
+.nav_link:hover {
+  color: black;
+  border-bottom: 2px solid black;
+}
+.btn_navbar {
+  cursor: pointer;
+}
